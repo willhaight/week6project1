@@ -1,0 +1,41 @@
+header {
+  padding-left: 12%;
+}
+header h1{
+  text-decoration: underline;
+}
+.dayTime {
+  background-color: #cbd1cd;
+  color: black;
+}
+.nightTime {
+  background-color: #434a45;
+  color: white;
+}
+#button {
+  
+  height:40px;
+  width:10%;
+}
+#products {
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height:600px;
+  width:70%;
+
+}
+#place {
+  display:flex;
+  justify-content: center;
+}
+.space {
+  border: 1px solid black;
+  border-radius: 3px;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #edf0ee;
+  margin:3px;
+  padding:16px;
+}
